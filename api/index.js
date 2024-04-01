@@ -1,6 +1,6 @@
 import express from "express";
-
 import authRoutes from "./routes/auth.route.js"
+import productRoutes from "./routes/product.route.js"
 import mongoose from "mongoose"
 import cors from "cors"
 
@@ -32,6 +32,8 @@ app.listen(PORT,async()=>{
 
 
 app.use("/api/auth", authRoutes)
+app.use("/api/product", productRoutes)
+
 
 
 
