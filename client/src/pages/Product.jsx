@@ -3,7 +3,7 @@ import { FiMenu } from 'react-icons/fi';
 import Sidebar from '../components/Sidebar';
 
 
-function Dashboard() {
+function Product() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
   const toggleSidebar = () => {
@@ -28,11 +28,11 @@ function Dashboard() {
             </button>
           </div>
         )}
-        <h1 className='text-center'>Dashboard</h1>
+        <h1 className='text-center'>Product</h1>
       </div>
     </div>
      </>
   );
 };
 
-export default Dashboard;
+export default Product;

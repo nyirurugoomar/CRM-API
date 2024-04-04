@@ -3,6 +3,8 @@ import Signin from "./pages/Signin"
 import Signup from "./pages/Signup";
 import PrivateRoute from "./components/PrivateRoute";
 import Dashboard from "./pages/Dashboard";
+import Product from "./pages/Product";
+
 
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
       <Route path="/sign-up" element={<Signup/>} />
       {/* <Route element={<PrivateRoute />}> */}
        <Route path="/dashboard" element={<Dashboard/>} />
+       <Route path="/product" element={<Product/>}/>
       {/* </Route> */}
     </Routes>
     </BrowserRouter>
