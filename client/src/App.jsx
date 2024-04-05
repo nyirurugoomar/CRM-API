@@ -4,6 +4,7 @@ import Signup from "./pages/Signup";
 import PrivateRoute from "./components/PrivateRoute";
 import Dashboard from "./pages/Dashboard";
 import Product from "./pages/Product";
+import Customer from "./pages/Customer";
 
 
 
@@ -18,10 +19,11 @@ function App() {
       {/* <Route element={<PrivateRoute />}> */}
        <Route path="/dashboard" element={<Dashboard/>} />
        <Route path="/product" element={<Product/>}/>
+       <Route path="/customers" element={<Customer/>}/>
       {/* </Route> */}
     </Routes>
     </BrowserRouter>
-  )
+  ) 
 }
 
 export default App

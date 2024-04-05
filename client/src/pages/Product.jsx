@@ -28,7 +28,28 @@ function Product() {
             </button>
           </div>
         )}
-        <h1 className='text-center'>Product</h1>
+
+        <div className='w-full h-full'>
+            <div className='mt-10'>
+                 <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 gap-y-16 mx-10 rounded-sm mb-40'>
+                    
+                 </div>
+                 <div className="bg-white shadow-2xl rounded-xl px-2">
+                  <div className="mt-4 mx-2">
+                    <div className="flex gap-4">
+                      <div>
+                        <h2 className="text-xl font-semibold text-[2rem] text-center">
+                          CAMERA
+                        </h2>
+                        <p className="font-bold text-center">it's camera that user for outside</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+         
+        </div>
+
       </div>
     </div>
      </>
