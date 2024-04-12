@@ -1,18 +1,47 @@
 [
     {
-        "ProductName":"CAMERA",
-        "ProductSpecs":"camera that mostly used for outside"
+      "ProductName": "ProductName 1",
+      "ProductSpecs": "ProductSpecs 1",
+      "id": "1"
     },
     {
-        "ProductName":"CAMERA1",
-        "ProductSpecs":"camera that mostly used for outside"
+      "ProductName": "ProductName 2",
+      "ProductSpecs": "ProductSpecs 2",
+      "id": "2"
     },
     {
-        "ProductName":"CAMERA3",
-        "ProductSpecs":"camera that mostly used for outside"
+      "ProductName": "ProductName 3",
+      "ProductSpecs": "ProductSpecs 3",
+      "id": "3"
     },
     {
-        "ProductName":"CAMERA3",
-        "ProductSpecs":"camera that mostly used for outside"
+      "ProductName": "ProductName 4",
+      "ProductSpecs": "ProductSpecs 4",
+      "id": "4"
+    },
+    {
+      "ProductName": "ProductName 5",
+      "ProductSpecs": "ProductSpecs 5",
+      "id": "5"
+    },
+    {
+      "ProductName": "ProductName 6",
+      "ProductSpecs": "ProductSpecs 6",
+      "id": "6"
+    },
+    {
+      "ProductName": "ProductName 7",
+      "ProductSpecs": "ProductSpecs 7",
+      "id": "7"
+    },
+    {
+      "ProductName": "ProductName 8",
+      "ProductSpecs": "ProductSpecs 8",
+      "id": "8"
+    },
+    {
+      "ProductName": "ProductName 9",
+      "ProductSpecs": "ProductSpecs 9",
+      "id": "9"
     }
-]
+  ]

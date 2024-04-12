@@ -28,7 +28,7 @@ function Dashboard() {
             </button>
           </div>
         )}
-        <h1 className='text-center'>Dashboard</h1>
+        <h1 className='text-center text-3xl mb-10'>Dashboard</h1>
       </div>
     </div>
      </>
